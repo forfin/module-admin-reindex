@@ -1,0 +1,23 @@
+{
+    "name": "forfin/module-admin-reindex",
+    "description": "Magento 2 Backend Reindex via Message Queue",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "poraphit chuesook",
+            "email": "poraphit@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ForFin\\AdminReindex\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "version": "1.0.0"
+}
